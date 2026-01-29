@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+<meta charset="UTF-8">
+<style>
+body{
+    margin:0;
+    height:100vh;
+
+    background-image: url("/static/saja.png");
+    background-size: contain;      /* 👈 هذا المهم */
+    background-repeat: no-repeat;  /* 👈 يمنع التكرار */
+    background-position: center top;
+    background-color: #f5e6ff;     /* لون ناعم حول الصورة */
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family: Arial;
+}
+
+.overlay{
+    background: rgba(255,255,255,0.75);
+    padding:50px;
+    border-radius:30px;
+    text-align:center;
+}
+
+h1{
+    color: purple;
+    font-size: 44px;
+}
+
+a{
+    display:block;
+    margin-top:30px;
+    font-size:28px;
+    color: purple;
+    text-decoration:none;
+}
+</style>
+</head>
+<body>
+
+<div class="overlay">
+   <h1>أحبج 💜</h1>
+    <a href="/page3">التالي ➡️</a>
+</div>
+
+</body>
+</html>
